@@ -1,0 +1,27 @@
+# --- Python Specific ---
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+env/
+venv/
+ENV/
+
+# --- Databases ---
+# Ignore local SQLite files if you ever use them for testing
+*.db
+*.sqlite3
+
+# --- IDEs and Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Logs ---
+*.log
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
